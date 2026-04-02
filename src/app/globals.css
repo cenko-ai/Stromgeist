@@ -5,25 +5,26 @@
 }
 
 :root {
-  /* Premium Dark Mode Color Palette */
-  --bg-main: #0a0c10;
-  --bg-soft: #14171f;
-  --bg-card: rgba(20, 23, 31, 0.6);
-  --bg-glass: rgba(15, 18, 25, 0.7);
+  /* Premium Trading Dashboard Dark Mode */
+  --bg-main: #05080e;
+  --bg-soft: #0b0f15;
+  --bg-card: rgba(11, 15, 21, 0.7);
+  --bg-glass: rgba(5, 8, 14, 0.8);
   
-  --green: #10b981;
-  --green-glow: #059669;
-  --green-light: rgba(16, 185, 129, 0.15);
+  /* Neon Trading Green */
+  --green: #00ff66;
+  --green-glow: #00cc52;
+  --green-light: rgba(0, 255, 102, 0.15);
   
   --text: #f0f2f5;
   --text-muted: #a0a6b5;
   --text-faint: #6e7687;
   
   --border: rgba(255, 255, 255, 0.08);
-  --border-glow: rgba(16, 185, 129, 0.3);
+  --border-glow: rgba(0, 255, 102, 0.4);
   
   --radius: 16px;
-  --shadow-glow: 0 0 20px rgba(16, 185, 129, 0.15);
+  --shadow-glow: 0 0 25px rgba(0, 255, 102, 0.2);
   --font-sans: 'DM Sans', sans-serif;
   --font-serif: 'DM Serif Display', serif;
 }
@@ -35,8 +36,12 @@ body {
   color: var(--text);
   background: var(--bg-main);
   background-image: 
-    radial-gradient(circle at 15% 50%, rgba(16, 185, 129, 0.06), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(16, 185, 129, 0.04), transparent 25%);
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    radial-gradient(circle at 15% 50%, rgba(0, 255, 102, 0.08), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(0, 255, 102, 0.06), transparent 25%);
+  background-size: 40px 40px, 40px 40px, 100% 100%, 100% 100%;
+  background-attachment: fixed;
   font-size: 16px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
@@ -325,7 +330,7 @@ h1 em {
 
 .featured-article:hover { 
   border-color: var(--border-glow); 
-  transform: translateY(-4px);
+  transform: translateY(-4px) scale(1.02);
   box-shadow: var(--shadow-glow);
 }
 
@@ -410,7 +415,9 @@ h1 em {
 
 .article-item:hover { 
   background: rgba(255,255,255,0.03); 
-  border-color: var(--border);
+  border-color: var(--border-glow);
+  transform: translateX(6px);
+  box-shadow: 0 4px 15px rgba(0, 255, 102, 0.08);
 }
 
 .article-icon {
