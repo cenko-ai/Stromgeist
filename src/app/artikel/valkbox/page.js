@@ -42,7 +42,7 @@ export default function ArticleValkbox() {
           Die Module während der Montage — Betonplatten als Ballast, Gummiunterlagen schützen die Dachhaut.
         </p>
 
-        <p>Was mich positiv überrascht hat: Die Konstruktion wirkt solide. Die Module sitzen fest, kein Wackeln, kein Verrutschen. Und durch die Gummiunterlagen liegt das gesamte System ruhig auf dem Dach — auch bei Wind.</p>
+        <p>Was mich positiv überrascht hat: Die Konstruktion wirkt solide. Die Module sitzen fest, kein Wackeln, kein Verrutschen, vorausgesetzt man hat die richtige Beschwerung gewählt, ich habe je PV-Modul insgesamt 14 Gehwegplatten, im Internet steht für jede Windregion die korrekte Beschwerung, bitte unbedingt beachten. Und durch die Gummiunterlagen liegt das gesamte System ruhig auf dem Dach — auch bei Wind.</p>
 
         <h2>Mein Setup auf der Garage</h2>
         <p>Ich habe zwei Reihen Valkbox-Systeme auf meinem Garagendach installiert — eine Reihe mit nach Süden ausgerichteten Modulen, eine mit leicht nach Westen geneigten. Die unterschiedliche Ausrichtung war bewusst gewählt: So habe ich über den Tag hinweg eine gleichmäßigere Produktion statt eines einzelnen Mittagspeaks.</p>
