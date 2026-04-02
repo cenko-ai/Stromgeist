@@ -4,6 +4,7 @@ import StatsBar from "@/components/StatsBar";
 import MarktWidget from "@/components/MarktWidget";
 import ArticleCard from "@/components/ArticleCard";
 import SavingsSlider from "@/components/SavingsSlider";
+import FaqSection from "@/components/FaqSection";
 
 export default function Home() {
   return (
@@ -153,6 +154,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <FaqSection />
 
       </div>
       <Footer />
