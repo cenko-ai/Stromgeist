@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import StatsBar from "@/components/StatsBar";
@@ -114,26 +115,26 @@ export default function Home() {
           <div className="sidebar">
             <div className="topics-box">
               <div className="topics-header">Alle Themen</div>
-              <div className="topic-row">
+              <Link href="/artikel/warum-strompreis-faellt" className="topic-row" style={{ textDecoration: "none", color: "inherit" }}>
                 <span className="topic-emoji">⚡</span>
                 <span className="topic-name">Strompreise</span>
                 <span className="topic-count">1</span>
-              </div>
-              <div className="topic-row">
+              </Link>
+              <Link href="/artikel/pv-2026" className="topic-row" style={{ textDecoration: "none", color: "inherit" }}>
                 <span className="topic-emoji">☀️</span>
                 <span className="topic-name">Photovoltaik</span>
                 <span className="topic-count">3</span>
-              </div>
-              <div className="topic-row">
+              </Link>
+              <Link href="/artikel/heimspeicher" className="topic-row" style={{ textDecoration: "none", color: "inherit" }}>
                 <span className="topic-emoji">🔋</span>
                 <span className="topic-name">Heimspeicher</span>
                 <span className="topic-count">1</span>
-              </div>
-              <div className="topic-row">
+              </Link>
+              <Link href="/artikel/tarifwechsel" className="topic-row" style={{ textDecoration: "none", color: "inherit" }}>
                 <span className="topic-emoji">🔄</span>
                 <span className="topic-name">Tarife & Wechsel</span>
                 <span className="topic-count">2</span>
-              </div>
+              </Link>
               <div className="topic-row">
                 <span className="topic-emoji">🏠</span>
                 <span className="topic-name">Wärmepumpe</span>
