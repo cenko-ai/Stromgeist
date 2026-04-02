@@ -42,12 +42,12 @@ export default function Home() {
           <div className="vergleich-inner">
             <span className="vergleich-label">Direkt vergleichen</span>
             <div className="vergleich-links">
-              <a href="#" className="vlink vlink-strom">Strom · Verivox</a>
-              <a href="#" className="vlink vlink-strom">Strom · Check24</a>
-              <a href="#" className="vlink vlink-oeko">Ökostrom · Verivox</a>
-              <a href="#" className="vlink vlink-oeko">Ökostrom · Check24</a>
-              <a href="#" className="vlink vlink-gas">Gas · Verivox</a>
-              <a href="#" className="vlink vlink-gas">Gas · Check24</a>
+              <a href="https://partner.verivox.de/go.cgi?pid=6744&wmid=37&cpid=1&prid=93&subid=&target=stromvergleich_2019-09" target="_blank" rel="noopener noreferrer" className="vlink vlink-strom">Strom · Verivox</a>
+              <a href="https://www.c24n.de/2rYlvHM" target="_blank" rel="noopener noreferrer" className="vlink vlink-strom">Strom · Check24</a>
+              <a href="https://partner.verivox.de/go.cgi?pid=6744&wmid=40&cpid=1&prid=93&subid=&target=Oekostromvergleich_2019-09" target="_blank" rel="noopener noreferrer" className="vlink vlink-oeko">Ökostrom · Verivox</a>
+              <a href="https://www.c24n.de/Vkxlwjs" target="_blank" rel="noopener noreferrer" className="vlink vlink-oeko">Ökostrom · Check24</a>
+              <a href="https://partner.verivox.de/go.cgi?pid=6744&wmid=31&cpid=1&prid=99&subid=&target=gasvergleich_2019-09" target="_blank" rel="noopener noreferrer" className="vlink vlink-gas">Gas · Verivox</a>
+              <a href="https://www.c24n.de/jXECb02" target="_blank" rel="noopener noreferrer" className="vlink vlink-gas">Gas · Check24</a>
             </div>
             <span className="vergleich-hint">Affiliate-Links · kostenlos für dich</span>
           </div>

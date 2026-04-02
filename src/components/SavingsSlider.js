@@ -25,12 +25,12 @@ export default function SavingsSlider() {
         maxWidth: "500px",
       }}
     >
-      <h3 style={{ fontSize: "16px", fontWeight: "600", marginBottom: "16px", color: "white" }}>
+      <h3 style={{ fontSize: "16px", fontWeight: "600", marginBottom: "16px", color: "var(--text)" }}>
         Finde heraus, was du sofort sparen kannst
       </h3>
       <div style={{ marginBottom: "20px" }}>
         <label style={{ display: "block", fontSize: "13px", color: "var(--text-muted)", marginBottom: "8px" }}>
-          Dein aktueller Monatsabschlag: <strong style={{color: 'white'}}>{monthlyCost} €</strong>
+          Dein aktueller Monatsabschlag: <strong style={{color: 'var(--text)'}}>{monthlyCost} €</strong>
         </label>
         <input
           type="range"
@@ -49,7 +49,7 @@ export default function SavingsSlider() {
       
       <div style={{ background: "rgba(16, 185, 129, 0.1)", padding: "16px", borderRadius: "8px", border: "1px solid rgba(16, 185, 129, 0.2)", marginBottom: "20px" }}>
         <div style={{ fontSize: "13px", color: "var(--green)", marginBottom: "4px" }}>Geschätztes verstecktes Sparpotenzial:</div>
-        <div style={{ fontFamily: "var(--font-serif)", fontSize: "28px", color: "white", lineHeight: "1" }}>~ {currentSavings} € / Jahr</div>
+        <div style={{ fontFamily: "var(--font-serif)", fontSize: "28px", color: "var(--text)", lineHeight: "1" }}>~ {currentSavings} € / Jahr</div>
       </div>
 
       <a
