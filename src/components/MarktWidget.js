@@ -30,7 +30,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Gas unter starkem Aufwärtsdruck. Die Straße von Hormuz ist de facto blockiert — rund 20 % des weltweiten LNG-Angebots fallen aus. Zusätzlich beschädigte Zyklon Narelle die australische Wheatstone-Anlage (Chevron) für mehrere Wochen. Ras Laffan in Katar nimmt frühestens nach Ende der Kampfhandlungen wieder Betrieb auf. Die Speicherstände in Deutschland bleiben kritisch niedrig.
+              Gas unter starkem Aufwärtsdruck. Die Straße von Hormuz ist de facto blockiert — rund 20 % des weltweiten LNG-Angebots fallen aus. Zusätzlich beschädigte Zyklon Narelle die australische Wheatstone-Anlage (Chevron) für mehrere Wochen. Ras Laffan in Katar nimmt frühestens nach Ende der Kampfhandlungen wieder Betrieb auf. Die Speicherstände in Deutschland bleiben kritisch niedrig. Trumps Rede hat die Märkte nicht beruhigt, sondern durch seine Drohungen weiter in Aufruhr versetzt.
             </p>
           </div>
 
