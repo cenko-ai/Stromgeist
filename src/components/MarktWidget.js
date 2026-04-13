@@ -42,7 +42,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Öl reagiert scharf auf die Eskalation. Brent Crude bewegte sich zuletzt in Richtung neuer Hochs bei ~119 USD/bbl — die US-Seeblockade iranischer Häfen liefert den nächsten Schub Richtung 129 USD/bbl (erstes Fibonacci-Ziel). Reedereien wie Maersk und Hapag-Lloyd meiden die Straße von Hormus weiterhin. Entspannung erst, wenn die Verhandlungen echte Fortschritte zeigen — davon ist nach dem Islamabad-Abbruch vorerst nichts zu sehen.
+              Öl reagiert scharf auf die Eskalation. Brent Crude bewegte sich zuletzt in Richtung neuer Hochs bei ~119 USD/bbl — die US-Seeblockade iranischer Häfen liefert den nächsten Schub Richtung 129 USD/bbl (erstes Fibonacci-Ziel). Reedereien wie Maersk und Hapag-Lloyd meiden die Straße von Hormus weiterhin. Entspannung erst, wenn die Verhandlungen echte Fortschritte zeigen — davon ist nach dem Islamabad-Abbruch vorerst nichts zu sehen. Die Bundesregierung plant durch Energiesteuerabsenkung die Spritpreise für 2 Monate um ca. 17 cent zu senken.
             </p>
           </div>
         </div>
