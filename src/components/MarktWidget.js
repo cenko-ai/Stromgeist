@@ -4,7 +4,7 @@ export default function MarktWidget() {
       <div className="markt-inner">
         <div className="markt-header">
           <span className="markt-title">Wöchentliche Markteinschätzung</span>
-          <span className="markt-date">KW 16 · 15. April 2026</span>
+          <span className="markt-date">KW 17 · 21. April 2026</span>
         </div>
         <p className="markt-disclaimer">
           Persönliche Einschätzung des Autors — keine Anlage- oder Energieberatung. Alle Angaben ohne Gewähr.
@@ -18,7 +18,7 @@ export default function MarktWidget() {
               <span className="markt-arrow neutral">→</span>
             </div>
             <p className="markt-text">
-              Seitwärts auf hohem Niveau. Das Frontjahr 2027 verharrt bewegungsarm um die 90 €/MWh — aktuell 88,65 €/MWh. Die Märkte warten auf Ergebnisse der neu anberaumten US-Iran-Gespräche. Wind bleibt bis 21. April deutlich unter der Norm, was den Spot stützt. EDF verlängert den Ausfall von Cattenom 4 (1,3 GW) um mehr als einen Monat bis Mitte Juni — ein zusätzlicher Aufwärtsfaktor für den Terminmarkt. Gegenläufig: Italien bringt staatliche Unterstützung für Gaskraftwerke ins Spiel, was mittelfristig die Gasnachfrage erhöhen könnte.
+              Konsolidierungsphase mit leichtem Aufwärtsbias. Die Cal-27-Base-Future bewegt sich seitwärts um 90 €/MWh (aktuell 88,84 €/MWh) ohne klaren Trendimpuls. Die Märkte sind fokussiert auf die US-Iran-Verhandlungen mit Stichtag 22. April. Im Spot drückt die steigende Wind- und Solarproduktion ab Wochenmitte die Preise unter Druck, kompensiert aber teilweise durch die Troll-Wartung in Norwegen, die das Gasangebot senkt. Die EU-Kommission diskutiert sechs Reformoptionen für den Emissionshandel, was mittelfristig marktgestaltend sein könnte. Für die nächsten zwei Wochen entscheidend: der Ausgang der iranischen Verhandlungen.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Geopolitik hält die Preise hoch. TTF-Frontjahr 2027 bei 34,74 €/MWh — gestützt durch gescheiterte US-Iran-Gespräche, die US-Blockade der Straße von Hormus und Wartungsarbeiten in Norwegen (Troll, Kollsnes). Qatar Energy nimmt LNG-Verladungen aus Ras Laffan erst nach Ende der Kampfhandlungen wieder auf — drei bis vier Monate bis zur vollen Kapazität, 17 % der Exportkapazität langfristig beschädigt. Dämpfend wirken milde Temperaturen und schwache Nachfrage aus China und Japan. Speicherstände Deutschland: 29,6 %.
+              Geopolitisches Feuer am höchsten. Die TTF-Frontjahr-2027 notiert bei stabilen ~40 €/MWh, getrieben durch mehrere Faktoren: die iranischen Blockademitnahmen an der Straße von Hormus, die US-Waffenruhe-Frist die Mittwoch 22. April endet, Wartungsarbeiten in Norwegen (Troll mit bis zu 70% Feldkapazität offline) und vier LNG-Tanker, die südwestlich der Hormusstraße warten. Gegenläufig: Erneuerbare Energien reduzieren die Gasnachfrage um über 400 GWh täglich, und Temperaturen liegen europaweit über dem saisonalen Schnitt — typischerweise bis Anfang Juni. Die nächste Überraschung kommt wahrscheinlich von den Verhandlungsergebnissen.
             </p>
           </div>
 
@@ -39,10 +39,10 @@ export default function MarktWidget() {
               <div className="markt-card-title">
                 <span className="markt-card-icon">⛽</span> Benzin & Diesel
               </div>
-              <span className="markt-arrow up">↑</span>
+              <span className="markt-arrow neutral">→</span>
             </div>
             <p className="markt-text">
-              Öl unter Aufwärtsdruck. Brent Crude bei 94,79 USD/bbl — getrieben durch härtere iranische Verhandlungsposition und den Einbruch der irakischen Produktion auf rund 0,8 Mio. bpd (Normalwert: 4,3 Mio. bpd). Hohe Gaspreise machen Kohleverstromung in Europa und Asien wirtschaftlicher: Japan, Südkorea und Taiwan erhöhen ihre Kohlekapazitäten. Gegenläufig: Neue USA-Iran-Gespräche lassen Märkte auf Entspannung hoffen; teilweise Passage durch Hormus möglich.
+              Öl unter geopolitischem Druck. Die OPEC+ hat ihre Gewalt unter Kontrolle, aber die Lage bleibt fragil: Irak arbeitet aktuell nur mit ~0,8 Millionen Fass pro Tag statt der normalen 4,3 Millionen — ein dramatischer Ausfall. Kompensiert wird das teilweise durch stabiles TTF-Gas um die 40 €/MWh, das Kohleverstromung in Japan, Südkorea und Taiwan attraktiver macht — dort gehen mehr Kapazitäten online. Die Raffinerien in Hormus und der Arabischen See sehen derzeit hohe Kapazitätsausfälle. Bodenständig bleibt: Neue US-Iran-Gespräche könnten Entspannung bringen.
             </p>
           </div>
         </div>
