@@ -4,7 +4,7 @@ export default function MarktWidget() {
       <div className="markt-inner">
         <div className="markt-header">
           <span className="markt-title">Wöchentliche Markteinschätzung</span>
-          <span className="markt-date">KW 17 · 21. April 2026</span>
+          <span className="markt-date">KW 18 · 28. April 2026</span>
         </div>
         <p className="markt-disclaimer">
           Persönliche Einschätzung des Autors — keine Anlage- oder Energieberatung. Alle Angaben ohne Gewähr.
@@ -18,7 +18,7 @@ export default function MarktWidget() {
               <span className="markt-arrow neutral">→</span>
             </div>
             <p className="markt-text">
-              Konsolidierungsphase mit leichtem Aufwärtsbias. Die Cal-27-Base-Future bewegt sich seitwärts um 90 €/MWh (aktuell 88,84 €/MWh) ohne klaren Trendimpuls. Die Märkte sind fokussiert auf die US-Iran-Verhandlungen mit Stichtag 22. April. Im Spot drückt die steigende Wind- und Solarproduktion ab Wochenmitte die Preise unter Druck, kompensiert aber teilweise durch die Troll-Wartung in Norwegen, die das Gasangebot senkt. Die EU-Kommission diskutiert sechs Reformoptionen für den Emissionshandel, was mittelfristig marktgestaltend sein könnte. Für die nächsten zwei Wochen entscheidend: der Ausgang der iranischen Verhandlungen.
+              Seitwärtstendenz mit Volatilität durch erneuerbare Spitzen. Die Cal-27-Base-Future konsolidiert seitwärts um 90 €/MWh (aktuell 91,93 €/MWh), während der Spot bei 70,65 €/MWh notiert. Antreiber sind Windverstärkung ab Wochenmitte und Solar auf Doppelleistung (bis 20 GW gegen Saisondurchschnitt ~10 GW), was negative Restlast und möglicherweise negative Preise am 1. Mai erwarten lässt. Gegenläufig wirken die Troll-Wartung in Norwegen (173 GWh/d bis 6. Mai offline) und ein potenzieller EDF-Streik (28.4. bis 21:00 Uhr). Die Marktfundamente bleiben unsicher durch Hormus-Geopolitik und Iran-Verhandlungen.
             </p>
           </div>
 
@@ -27,10 +27,10 @@ export default function MarktWidget() {
               <div className="markt-card-title">
                 <span className="markt-card-icon">🔥</span> Gas
               </div>
-              <span className="markt-arrow up">↑</span>
+              <span className="markt-arrow neutral">→</span>
             </div>
             <p className="markt-text">
-              Geopolitisches Feuer am höchsten. Die TTF-Frontjahr-2027 notiert bei stabilen ~40 €/MWh, getrieben durch mehrere Faktoren: die iranischen Blockademitnahmen an der Straße von Hormus, die US-Waffenruhe-Frist die Mittwoch 22. April endet, Wartungsarbeiten in Norwegen (Troll mit bis zu 70% Feldkapazität offline) und vier LNG-Tanker, die südwestlich der Hormusstraße warten. Gegenläufig: Erneuerbare Energien reduzieren die Gasnachfrage um über 400 GWh täglich, und Temperaturen liegen europaweit über dem saisonalen Schnitt — typischerweise bis Anfang Juni. Die nächste Überraschung kommt wahrscheinlich von den Verhandlungsergebnissen.
+              Unterstützung durch Geopolitik bei struktureller Nachfrageschwäche. Die TTF notiert stabil bei ~36,75 €/MWh im Frontmonat (+12,5% w-o-w), gestützt durch die Hormus-Blockade (LNG-Exporte bremsen ab Mai), das neue EU-Russland-LNG-Embargo (ab 25.04.), und die Troll-Wartung mit bis zu 70% Feldkapazitätsverlust. Allerdings drückt das warme Wetter (EC46-Forecast) mit Solar-Boom die Heiznachfrage und Gas-for-Power deutlich, während die EU-Speicher bei 31,8% liegen (7,7pp unter Vorjahr). Der irakische Ras-Laffan-Terminal fährt langsam hoch. Strukturelle Knappheit bis 2027 bleibt durch IEA-Prognose (120 bcm Angebotsverlust 2026-30), kompensiert später durch Golden Pass (USA) Maiden-Export.
             </p>
           </div>
 
@@ -39,10 +39,10 @@ export default function MarktWidget() {
               <div className="markt-card-title">
                 <span className="markt-card-icon">⛽</span> Benzin & Diesel
               </div>
-              <span className="markt-arrow neutral">→</span>
+              <span className=\"markt-arrow up\">↑</span>
             </div>
-            <p className="markt-text">
-              Öl unter geopolitischem Druck. Die OPEC+ hat ihre Gewalt unter Kontrolle, aber die Lage bleibt fragil: Irak arbeitet aktuell nur mit ~0,8 Millionen Fass pro Tag statt der normalen 4,3 Millionen — ein dramatischer Ausfall. Kompensiert wird das teilweise durch stabiles TTF-Gas um die 40 €/MWh, das Kohleverstromung in Japan, Südkorea und Taiwan attraktiver macht — dort gehen mehr Kapazitäten online. Die Raffinerien in Hormus und der Arabischen See sehen derzeit hohe Kapazitätsausfälle. Bodenständig bleibt: Neue US-Iran-Gespräche könnten Entspannung bringen.
+            <p className=\"markt-text\">
+              Ölmarkt unter Hormus-Blockade-Stress. Die Straße von Hormus kontrolliert 20% des globalen Ölhandels (~2 Mio. Fass/Tag), und die US-Blockade iranischer Häfen verstärkt das Angebot-Ungleichgewicht. Die OPEC+ kann Ausfälle nur begrenzt kompensieren — etwa 20% der globalen Kapazität sind betroffen. Preistreiber: geopolitische Unsicherheit US-Iran-Konflikt (verlängert das Gaspreisniveau strukturell), während Asia-Pacific mit Hitzewellen droht und zusätzliche LNG-Nachfrage erwartet. Erste US-LNG-Projekte (Golden Pass) stehen vor Maiden-Export. Insgesamt: mittelfristige Knappheit bleibt Support für höhere Öl- und Benzinpreise.
             </p>
           </div>
         </div>
