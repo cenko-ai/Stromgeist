@@ -29,8 +29,6 @@ export default function Home() {
             <span>Portfoliomanager Strom & Gas</span>
             <div className="trust-dot"></div>
             <span>15+ Jahre Marktexpertise</span>
-            <div className="trust-dot"></div>
-            <span>Affiliate-Links klar gekennzeichnet</span>
           </div>
         </section>
 

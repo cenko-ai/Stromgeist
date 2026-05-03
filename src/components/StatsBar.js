@@ -11,10 +11,6 @@ export default function StatsBar() {
           <div className="stat-label">Ø Einsparpotenzial pro Jahr</div>
         </div>
         <div>
-          <div className="stat-num">8</div>
-          <div className="stat-label">Artikel & Praxisberichte</div>
-        </div>
-        <div>
           <div className="stat-num">1×</div>
           <div className="stat-label">Markteinschätzung pro Woche</div>
         </div>
