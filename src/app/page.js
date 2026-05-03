@@ -103,11 +103,17 @@ export default function Home() {
                 meta="Tarife · März 2026"
                 slug="tibber"
               />
-              <ArticleCard 
+              <ArticleCard
                 icon="🔧"
                 title="Balkonkraftwerk auf dem Flachdach — Valkbox 3 Praxisbericht"
                 meta="Photovoltaik · März 2026 · Praxisbericht"
                 slug="valkbox"
+              />
+              <ArticleCard
+                icon="♨️"
+                title="Wärmepumpe 2026 — lohnt sie sich wirklich, und für wen?"
+                meta="Wärmepumpe · April 2026"
+                slug="waermepumpe"
               />
             </div>
           </div>
@@ -135,11 +141,11 @@ export default function Home() {
                 <span className="topic-name">Tarife & Wechsel</span>
                 <span className="topic-count">2</span>
               </Link>
-              <div className="topic-row">
-                <span className="topic-emoji">🏠</span>
+              <Link href="/artikel/waermepumpe" className="topic-row" style={{ textDecoration: "none", color: "inherit" }}>
+                <span className="topic-emoji">♨️</span>
                 <span className="topic-name">Wärmepumpe</span>
-                <span className="topic-count">bald</span>
-              </div>
+                <span className="topic-count">1</span>
+              </Link>
             </div>
           </div>
         </div>
