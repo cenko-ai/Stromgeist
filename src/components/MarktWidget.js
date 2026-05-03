@@ -18,7 +18,7 @@ export default function MarktWidget() {
               <span className="markt-arrow neutral">→</span>
             </div>
             <p className="markt-text">
-              Volatilität durch Erneuerbare und norwegische Wartungsausfälle prägen die Woche. Die Cal-27-Base-Future konsolidiert seitwärts um 91,16 €/MWh, der Spotmarkt notiert bei 70,65 €/MWh. Treiber: Windverstärkung ab Wochenmitte und Solarproduktion auf doppelter Leistung (bis 20 GW vs. Saisondurchschnitt ~10 GW) führen zu negativer Restlast — negative Preise am 1. Mai wahrscheinlich. Die Troll-Wartung in Norwegen reduziert Gasangebot um 173 GWh/d bis 6. Mai und treibt Gasverstromungskosten in die Höhe. EDF-Streik und Tarifverhandlungen erhöhen Unsicherheit. Hormus-Geopolitik bleibt mittelfristig preisunterstützend.
+              Volatilität durch Erneuerbare und norwegische Wartungsausfälle prägen die Woche. Die Cal-27-Base-Future konsolidiert seitwärts um 91,16 €/MWh, der Spotmarkt notiert bei 70,65 €/MWh. Treiber: Windverstärkung ab Wochenmitte und Solarproduktion mit doppelter Leistung (bis 20 GW vs. Saisondurchschnitt ~10 GW) führen zu negativer Restlast — negative Preise am 1. Mai wahrscheinlich. Die Troll-Wartung in Norwegen reduziert Gasangebot um 173 GWh/d bis 6. Mai und treibt Gasverstromungskosten in die Höhe. EDF-Streik und Tarifverhandlungen erhöhen Unsicherheit. Hormus-Geopolitik bleibt mittelfristig preisunterstützend.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Geopolitische Unsicherheit stützt, warmes Wetter und Solar-Boom drücken Fundamentale. Die TTF notiert bei 43,51 €/MWh (Spot/M+1), gestützt durch die Hormus-Blockade (LNG-Exporte bremsen ab Mai), das EU-Russland-LNG-Embargo (ab 25.04.), und die Troll-Wartung mit bis zu 70% Feldkapazitätsverlust (>100 GWh/d bis 6. Mai). Allerdings drückt das warme EC46-Forecast mit Solar-Boom die Heiznachfrage und Gas-for-Power deutlich. EU-Speicher liegen bei 31,8% (7,7pp unter Vorjahr). Ras-Laffan-Terminal fährt langsam hoch. Strukturelle Knappheit bis 2027 bleibt durch IEA-Prognose (120 bcm Angebotsverlust 2026-30). Golden Pass (USA) bringt Maiden-Export 2026.
+              Geopolitische Unsicherheit stützt, warmes Wetter und Solar-Boom drücken Fundamentale. Die TTF notiert bei 43,51 €/MWh (Spot/M+1), gestützt durch die Hormus-Blockade (LNG-Exporte bremsen ab Mai), das EU-Russland-LNG-Embargo (ab 25.04.), und die Troll-Wartung mit bis zu 70% Feldkapazitätsverlust (&gt;100 GWh/d bis 6. Mai). Allerdings drückt das warme EC46-Forecast mit Solar-Boom die Heiznachfrage und Gas-for-Power deutlich. EU-Speicher liegen bei 31,8% (7,7pp unter Vorjahr). Ras-Laffan-Terminal fährt langsam hoch. Strukturelle Knappheit bis 2027 bleibt durch IEA-Prognose (120 bcm Angebotsverlust 2026-30). Golden Pass (USA) bringt Maiden-Export 2026.
             </p>
           </div>
 
