@@ -4,7 +4,7 @@ export default function MarktWidget() {
       <div className="markt-inner">
         <div className="markt-header">
           <span className="markt-title">Wöchentliche Markteinschätzung</span>
-          <span className="markt-date">KW 20 · 13. Mai 2026</span>
+          <span className="markt-date">KW 22 · 27. Mai 2026</span>
         </div>
         <p className="markt-disclaimer">
           Persönliche Einschätzung des Autors — keine Anlage- oder Energieberatung. Alle Angaben ohne Gewähr.
@@ -18,7 +18,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Cal-27 zieht über 92 €/MWh und zeichnet ein bullisches Dreieck mit Kursziel ~93,75 €/MWh. Modellläufe deuten für 15.–23. Mai nur 5–8 GW Windeinspeisung an (Klimamittel 11,5 GW), was Preisspitzen wahrscheinlich macht. PV-Aufbringung bleibt schwach um 10 GW. Die Iran-Eskalation verteuert Gas und CO2 dauerhaft — die Merit Order zieht mit und stützt Strompreise strukturell. Hormus-Risikoprämie bleibt im Cal-27 bestehen. Positiv: CO2-Reform weniger scharf als erhofft, Fallback-Werte unverändert. Neutral: EU beschleunigt EE-Ausbau mittelfristig, dämpfend auf Frontjahre.
+              Cal-27 verharrt in der bewährten Range zwischen 90,33 und 91,16 €/MWh. Die US-/Israel-Anschläge auf iranische Raketenrampen trieben die Preise erneut zur Oberseite — die Hormus-Risikoprämie bleibt strukturell. MetDesk warnt: Juni wird heiß und trocken in Frankreich/Deutschland, Atomkraftwerke und Wasserkraft geraten unter Druck. Wind fällt ab Ende der Woche schwach aus; Solarertrag bis Monatsende hoch, was Mittagsdellen und Stundenausfälle mit sich bringt. Positiv: Deutschland ist wieder Netto-Stromexporteur (Q1-Bilanz), CO2-Reform schwächer als erwartet — Fallback-Werte unverändert. Strukturell: Die Iran-Eskalation verteuert Gas und CO2; die Merit Order zieht Strompreise mit nach oben.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              TTF notiert bei 47,83 €/MWh und wird durch Mehrfach-Chocks gestützt: Hammerfest-LNG (6,5 Mt/a) ist bis 13. Mai offline, Einspeicherrate Deutschland eingebrochen, Rehden wird nicht befüllt. INES warnt, das 76%-Speicherziel ist nur theoretisch — bei kaltem Winter droht 20 TWh Unterdeckung. Iran-Forderungen sind unrealistisch; Trump sieht nur ~1% Wahrscheinlichkeit ohne Eskalation. LNG-Ströme verlagern sich nach Asien (US-Exporte: Feb 0,6 → Mai 3,5 Mt). Winterrisiko 2026/27 steigt strukturell. Positiv: Australien führt 20%-Inlandsquote für LNG ab Juli 2027 ein (bullish). EU-Russland-LNG-Ban aktiv seit 25.04., vollständiges Embargo Jan 2027.
+              TTF notiert bei 46,75 €/MWh und gerät zum vierten Mal in vier Wochen unter Beschuss. Die nächtlichen US-/Israel-Anschläge auf iranische Raketenrampen und Minenleger in Hormus lösten einen Preissprung aus — die Achterbahn bleibt. Ein MoU USA/Iran ist „weitgehend ausgehandelt" (60 Tage Waffenruhe, Hormus-Öffnung), die Revolutionsgarde fordert aber nur schrittweise Öffnung; belastbare Einigung ist nicht in Sicht. Der El-Niño-Effekt schlägt durch: Japan überschritt am 18.05. erstmals 35°C ungewöhnlich früh, Asiensommer wird heiß und trocken — LNG-Konkurrenz steigt strukturell. Positiv: DE-Einspeicherraten über 1 TWh/Tag, Rehden wird wieder befüllt, Einzelne LNG-Tanker durchqueren Hormus über Pfingsten. Strukturell: Hormus-Risikoprämie bleibt bis zur Einigung; El-Niño hebt Asien-Gasnachfrage dauerhaft.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Brent klettert über 107 USD/bbl. Trump nennt iranische Antwort „völlig inakzeptabel" — Eskalation ist wahrscheinlich. Aramco meldet ~100 Mio. Barrel/Woche Ausfall (2-Monats-Defizit: ~1 Mrd. Barrel). Kpler-Szenario „Iranian Control": Hormus-Durchfahrten dauerhaft auf 40–50% gedeckelt. Goldman Sachs warnt: globale Öllager auf 8-Jahres-Tief. Geopolitische Unsicherheit (Hormus, Iran, Druzhba-Unterbrechung) treibt Risikoprämie. Negativ: OPEC+ und ADNOC wollen Kapazitäten ausweiten; Indien spart Kraftstoffe (Modi-Reise-Verzicht). Structural: Angebotsdefizit und Geopolitik stützen Ölpreise nachhaltig bis Kriegsende.
+              Brent notiert bei 96,14 USD/bbl. Die neuen US-/Israel-Anschläge auf iranische Raketenrampen und Minenleger in Hormus zünden einen Preissprung — die nächste Antwort des Iran ist wahrscheinlich. Russlands Produktion sinkt; US-SPR-Withdrawals auf Rekord (Aramco-Lücke: ~100 Mio. Barrel/Woche). Die Revolutionsgarde hält Hormus nur schrittweise offen, Kpler-Modelle rechnen mit 40–50% Durchfahrtsreduktion dauerhaft. Die Charttechnik ist bearish unter 100 USD/bbl (Doppeltop-Risiko bei &lt;96 USD), aber Geopolitik überwiegt. Negativ: China-Nachfrage schwach, Indien dämpft Verbrauch; US-Benzinpreise auf 4-Jahres-Hoch bedeuten politischen Druck auf Trump. Strukturell: Angebotsdefizit und Iran-Risikoprämie stützen Ölpreise bis zur Marktberuhigung.
             </p>
           </div>
         </div>
