@@ -4,7 +4,7 @@ export default function MarktWidget() {
       <div className="markt-inner">
         <div className="markt-header">
           <span className="markt-title">Wöchentliche Markteinschätzung</span>
-          <span className="markt-date">KW 22 · 27. Mai 2026</span>
+          <span className="markt-date">KW 23 · 3. Juni 2026</span>
         </div>
         <p className="markt-disclaimer">
           Persönliche Einschätzung des Autors — keine Anlage- oder Energieberatung. Alle Angaben ohne Gewähr.
@@ -18,7 +18,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Cal-27 verharrt in der bewährten Range zwischen 90,33 und 91,16 €/MWh. Die US-/Israel-Anschläge auf iranische Raketenrampen trieben die Preise erneut zur Oberseite — die Hormus-Risikoprämie bleibt strukturell. MetDesk warnt: Juni wird heiß und trocken in Frankreich/Deutschland, Atomkraftwerke und Wasserkraft geraten unter Druck. Wind fällt ab Ende der Woche schwach aus; Solarertrag bis Monatsende hoch, was Mittagsdellen und Stundenausfälle mit sich bringt. Positiv: Deutschland ist wieder Netto-Stromexporteur (Q1-Bilanz), CO2-Reform schwächer als erwartet — Fallback-Werte unverändert. Strukturell: Die Iran-Eskalation verteuert Gas und CO2; die Merit Order zieht Strompreise mit nach oben.
+              Die Ausblicke für Spot und Cal-27 sind kurzfristig bullish. Unten drückt starker Wind bis Donnerstag (bis 21 GW), doch ab Sonntag wird es deutlich wärmer als im Klimamittel — der Kühlbedarf zieht an. Oben stützen Ausfälle bei französischen Kernkraftwerken (EDF: Tricastin 3 und Dampierre 2, insgesamt 1,8 GW) und eine schwache Solareinspeisung bis zur Monatsmitte. Die Iran-Eskalation und die israelische Libanon-Offensive verteuern Gas und CO2, was über die Merit Order auch die Strompreise zieht. Cal-27 bricht aus seiner Range nach oben aus; die Hormus-Risikoprämie bleibt strukturell bestehen, und die ETS-Reform vom 15. Juli wird länger Druck ausüben.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              TTF notiert bei 46,75 €/MWh und gerät zum vierten Mal in vier Wochen unter Beschuss. Die nächtlichen US-/Israel-Anschläge auf iranische Raketenrampen und Minenleger in Hormus lösten einen Preissprung aus — die Achterbahn bleibt. Ein MoU USA/Iran ist „weitgehend ausgehandelt" (60 Tage Waffenruhe, Hormus-Öffnung), die Revolutionsgarde fordert aber nur schrittweise Öffnung; belastbare Einigung ist nicht in Sicht. Der El-Niño-Effekt schlägt durch: Japan überschritt am 18.05. erstmals 35°C ungewöhnlich früh, Asiensommer wird heiß und trocken — LNG-Konkurrenz steigt strukturell. Positiv: DE-Einspeicherraten über 1 TWh/Tag, Rehden wird wieder befüllt, Einzelne LNG-Tanker durchqueren Hormus über Pfingsten. Strukturell: Hormus-Risikoprämie bleibt bis zur Einigung; El-Niño hebt Asien-Gasnachfrage dauerhaft.
+              Spot und Cal-27 sind beide bullish. Der Iran hat Friedensgespräche ausgesetzt und droht nach der israelischen Libanon-Offensive (Beirut/Dahieh, Litani-Fluss) mit einer vollständigen Hormus-Blockade; neue Drohnenangriffe auf Golfstaaten sind schon in dieser Nacht erfolgt (von den USA abgefangen). Zusätzlich droht der Iran eine Schließung der Straße von Bab el-Mandeb über die Huthi-Miliz im Jemen — ein zweiter Engpass im Welthandel. Ein Streik in der norwegischen Öl- und Gasindustrie droht ab dem 5. Juni (Statfjord A, Ula, Draugen, Oseberg). Trumps wiederholte Zusagen für einen Iran-Deal „binnen einer Woche" verlieren an Glaubwürdigkeit. Positiv: Deutsche und europäische Speicher füllen sich über dem Soll-Niveau, auch Rehden wird kontinuierlich gefüllt. El-Niño-Hitze in Asien treibt LNG-Konkurrenz strukturell höher.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Brent notiert bei 96,14 USD/bbl. Die neuen US-/Israel-Anschläge auf iranische Raketenrampen und Minenleger in Hormus zünden einen Preissprung — die nächste Antwort des Iran ist wahrscheinlich. Russlands Produktion sinkt; US-SPR-Withdrawals auf Rekord (Aramco-Lücke: ~100 Mio. Barrel/Woche). Die Revolutionsgarde hält Hormus nur schrittweise offen, Kpler-Modelle rechnen mit 40–50% Durchfahrtsreduktion dauerhaft. Die Charttechnik ist bearish unter 100 USD/bbl (Doppeltop-Risiko bei &lt;96 USD), aber Geopolitik überwiegt. Negativ: China-Nachfrage schwach, Indien dämpft Verbrauch; US-Benzinpreise auf 4-Jahres-Hoch bedeuten politischen Druck auf Trump. Strukturell: Angebotsdefizit und Iran-Risikoprämie stützen Ölpreise bis zur Marktberuhigung.
+              Brent ist bullish und wurde am 1. Juni nach Irans Friedensgespräch-Ausfall und Israels Libanon-Offensive deutlich fester. Die Drohung mit Bab el-Mandeb (Huthi-Miliz) und das norwegische Streikrisiko ab dem 5. Juni stützen weiter. Russlands Ölförderung sinkt strukturell. Negativ: Trump dementiert den iranischen Verhandlungsstop und erwartet dennoch eine Einigung „binnen einer Woche" — das beruhigt kurzfristig, ist aber für längerfristige Vorhersagen unzuverlässig. Eine Hisbollah-Waffenruhe entspannt zwischenzeitlich. US-Benzinpreise sind auf 4-Jahres-Highs gestiegen, was politischen Druck auf Trump aufbaut — das könnte am Ende auch de-eskalierend wirken.
             </p>
           </div>
         </div>
