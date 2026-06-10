@@ -4,7 +4,7 @@ export default function MarktWidget() {
       <div className="markt-inner">
         <div className="markt-header">
           <span className="markt-title">Wöchentliche Markteinschätzung</span>
-          <span className="markt-date">KW 23 · 3. Juni 2026</span>
+          <span className="markt-date">KW 24 · 10. Juni 2026</span>
         </div>
         <p className="markt-disclaimer">
           Persönliche Einschätzung des Autors — keine Anlage- oder Energieberatung. Alle Angaben ohne Gewähr.
@@ -18,7 +18,7 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Die Ausblicke für Spot und Cal-27 sind kurzfristig bullish. Unten drückt starker Wind bis Donnerstag (bis 21 GW), doch ab Sonntag wird es deutlich wärmer als im Klimamittel — der Kühlbedarf zieht an. Oben stützen Ausfälle bei französischen Kernkraftwerken (EDF: Tricastin 3 und Dampierre 2, insgesamt 1,8 GW) und eine schwache Solareinspeisung bis zur Monatsmitte. Die Iran-Eskalation und die israelische Libanon-Offensive verteuern Gas und CO2, was über die Merit Order auch die Strompreise zieht. Cal-27 bricht aus seiner Range nach oben aus; die Hormus-Risikoprämie bleibt strukturell bestehen, und die ETS-Reform vom 15. Juli wird länger Druck ausüben.
+              Strom-Spotpreise und das Frontjahr Cal-27 zeigen weiterhin Aufwärtstendenz. Zwar bremst starker Wind bis kommende Woche und bringt zeitweise über 22 GW Leistung ins Netz, aber ab Sonntag rollt eine Hitzewelle heran — deutlich über dem Klimamittel. Das treibt den Kühlbedarf in die Höhe. Zusätzlich verstärken französische Kernkraftwerk-Ausfälle (EDF hat vier weitere KKW abgefahren) und schwache Solareinspeisung den Druck nach oben. Besonders wichtig: Die Eskalation im Iran und die Hormus-Blockade-Drohungen verteuern Gas und CO2, das wiederum über die Merit Order auch Strompreise hochzieht. Cal-27 durchbricht alte Verlaufshochs charttechnisch bullish — die strukturelle Risikoprämie bleibt bestehen.
             </p>
           </div>
 
@@ -30,19 +30,19 @@ export default function MarktWidget() {
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Spot und Cal-27 sind beide bullish. Der Iran hat Friedensgespräche ausgesetzt und droht nach der israelischen Libanon-Offensive (Beirut/Dahieh, Litani-Fluss) mit einer vollständigen Hormus-Blockade; neue Drohnenangriffe auf Golfstaaten sind schon in dieser Nacht erfolgt (von den USA abgefangen). Zusätzlich droht der Iran eine Schließung der Straße von Bab el-Mandeb über die Huthi-Miliz im Jemen — ein zweiter Engpass im Welthandel. Ein Streik in der norwegischen Öl- und Gasindustrie droht ab dem 5. Juni (Statfjord A, Ula, Draugen, Oseberg). Trumps wiederholte Zusagen für einen Iran-Deal „binnen einer Woche" verlieren an Glaubwürdigkeit. Positiv: Deutsche und europäische Speicher füllen sich über dem Soll-Niveau, auch Rehden wird kontinuierlich gefüllt. El-Niño-Hitze in Asien treibt LNG-Konkurrenz strukturell höher.
+              Gas wird von zwei Risiken stark getrieben: erstens die Iran-Eskalation mit konkreten Drohungen, die Hormus und zusätzlich die Straße von Bab el-Mandeb (über Huthi-Miliz) zu blockieren — zwei kritische Seewege für Öl und LNG. Zweitens ein drohender Streik in Norwegen, der Exportflüsse stoppen könnte. Positiv wirkt, dass deutsche und europäische Speicher über dem Soll füllen, aber für den kommenden Winter bleibt eine gewisse Nervosität bestehen. El-Niño-Hitze in Asien erhöht dort die LNG-Nachfrage, was den europäischen Markt unter Druck setzt. Trumps wiederholte Aussagen, einen Deal \"in 1-2 Tagen\" hinzubekommen, verlieren an Glaubwürdigkeit — der Markt kalkuliert längerfristig mit hoher Spannung.
             </p>
           </div>
 
           <div className="markt-card">
             <div className="markt-card-header">
               <div className="markt-card-title">
-                <span className="markt-card-icon">⛽</span> Benzin & Diesel
+                <span className="markt-card-icon">⛽</span> Benzin &amp; Diesel
               </div>
               <span className="markt-arrow up">↑</span>
             </div>
             <p className="markt-text">
-              Brent ist bullish und wurde am 1. Juni nach Irans Friedensgespräch-Ausfall und Israels Libanon-Offensive deutlich fester. Die Drohung mit Bab el-Mandeb (Huthi-Miliz) und das norwegische Streikrisiko ab dem 5. Juni stützen weiter. Russlands Ölförderung sinkt strukturell. Negativ: Trump dementiert den iranischen Verhandlungsstop und erwartet dennoch eine Einigung „binnen einer Woche" — das beruhigt kurzfristig, ist aber für längerfristige Vorhersagen unzuverlässig. Eine Hisbollah-Waffenruhe entspannt zwischenzeitlich. US-Benzinpreise sind auf 4-Jahres-Highs gestiegen, was politischen Druck auf Trump aufbaut — das könnte am Ende auch de-eskalierend wirken.
+              Öl und Benzin zeigen bullisches Muster. Brent wurde nach dem Abbruch von Irans Friedensgesprächen und der israelischen Libanon-Offensive Anfang Juni deutlich fester. Die konkreten Drohungen bezüglich Bab el-Mandeb (Huthi-Blockade) und das norwegische Streikrisiko ab dem 5. Juni stützen weitere Aufschläge. Russlands Ölförderung sinkt strukturell, was Angebotsspannung erhöht. US-Benzinpreise sind auf 4-Jahres-Highs, was politischen Druck aufbaut — das könnte längerfristig beruhigend wirken. Kurzfristig jedoch bleibt die Lage angespannt, solange die Geopolitik im Nahen Osten nicht deutlich entspannt.
             </p>
           </div>
         </div>
