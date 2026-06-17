@@ -4,7 +4,7 @@ export default function MarktWidget() {
       <div className="markt-inner">
         <div className="markt-header">
           <span className="markt-title">Wöchentliche Markteinschätzung</span>
-          <span className="markt-date">KW 24 · 10. Juni 2026</span>
+          <span className="markt-date">KW 25 · 17. Juni 2026</span>
         </div>
         <p className="markt-disclaimer">
           Persönliche Einschätzung des Autors — keine Anlage- oder Energieberatung. Alle Angaben ohne Gewähr.
@@ -15,11 +15,10 @@ export default function MarktWidget() {
               <div className="markt-card-title">
                 <span className="markt-card-icon">⚡</span> Strom
               </div>
-              <span className="markt-arrow up">↑</span>
+              <span className="markt-arrow neutral">→</span>
             </div>
             <p className="markt-text">
-              Strom-Spotpreise und das Frontjahr Cal-27 zeigen weiterhin Aufwärtstendenz. Zwar bremst starker Wind bis kommende Woche und bringt zeitweise über 22 GW Leistung ins Netz, aber ab Sonntag rollt eine Hitzewelle heran — deutlich über dem Klimamittel. Das treibt den Kühlbedarf in die Höhe. Zusätzlich verstärken französische Kernkraftwerk-Ausfälle (EDF hat vier weitere KKW abgefahren) und schwache Solareinspeisung den Druck nach oben. Besonders wichtig: Die Eskalation im Iran und die Hormus-Blockade-Drohungen verteuern Gas und CO2, das wiederum über die Merit Order auch Strompreise hochzieht. Cal-27 durchbricht alte Verlaufshochs charttechnisch bullish — die strukturelle Risikoprämie bleibt bestehen.
-            </p>
+              Strom bewegt sich in Seitwärtsmuster mit erhöhter Volatilität. Eine Hitzewelle baut sich ab Donnerstag auf — Tagestemperaturen über 30°C — und wird den Kühlbedarf deutlich anheizen. Gleichzeitig sinkende Windproduktion (6 GW, Sonntag mit Tief unter 3 GW) und französische Kernkraftwerk-Drosselungen wegen Kühlwassergrenzen an der Rhône unterstützen Aufwärtstendenzen. Dem entgegen steht ein kräftiger Photovoltaik-Anstieg ab Donnerstag (19 GW Spitzenlast) mit ausgeprägten Mittagsdellen. Das Iran-Rahmenabkommen vom 19. Juni senkt Gas- und CO2-Preise, was über die Merit Order Strom entlastet. Charttechnisch bleibt Cal-27 unter Druck, die 87-EUR/MWh-Marke und die 200-Tage-Linie sind in Sichtweite.\n            </p>
           </div>
 
           <div className="markt-card">
@@ -27,11 +26,10 @@ export default function MarktWidget() {
               <div className="markt-card-title">
                 <span className="markt-card-icon">🔥</span> Gas
               </div>
-              <span className="markt-arrow up">↑</span>
+              <span className="markt-arrow neutral">→</span>
             </div>
             <p className="markt-text">
-              Gas wird von zwei Risiken stark getrieben: erstens die Iran-Eskalation mit konkreten Drohungen, die Hormus und zusätzlich die Straße von Bab el-Mandeb (über Huthi-Miliz) zu blockieren — zwei kritische Seewege für Öl und LNG. Zweitens ein drohender Streik in Norwegen, der Exportflüsse stoppen könnte. Positiv wirkt, dass deutsche und europäische Speicher über dem Soll füllen, aber für den kommenden Winter bleibt eine gewisse Nervosität bestehen. El-Niño-Hitze in Asien erhöht dort die LNG-Nachfrage, was den europäischen Markt unter Druck setzt. Trumps wiederholte Aussagen, einen Deal \"in 1-2 Tagen\" hinzubekommen, verlieren an Glaubwürdigkeit — der Markt kalkuliert längerfristig mit hoher Spannung.
-            </p>
+              Gas zeigt Erleichterung nach dem USA-Iran-Rahmenabkommen (digital unterzeichnet, offizielle Unterzeichnung 19. Juni in der Schweiz). Die Hormus-Wiederöffnung ist schrittweise — Minenräumung und Reederversicherung brauchen Wochen — und die Risikoprämie bleibt teilweise erhalten. TTF Cal-27 fiel von über 37 EUR/MWh auf 35 EUR/MWh, ein deutliches Korrekturzeichen. Gegenwind kommt aus Australien: Der Ichthys-LNG-Streik verlängert sich bis mindestens 6. Juli (10% der australischen LNG-Kapazität offline). Katar plant schnelle Rückkehr (80% Kapazität in 2 Monaten), und El-Niño hebt strukturell die LNG-Nachfrage in Asien. Restunsicherheit bleibt durch die Israel-Libanon-Situation mit offener Atombombe-Frage in 60-tägiger Verhandlungsperiode.\n            </p>
           </div>
 
           <div className="markt-card">
@@ -39,11 +37,10 @@ export default function MarktWidget() {
               <div className="markt-card-title">
                 <span className="markt-card-icon">⛽</span> Benzin &amp; Diesel
               </div>
-              <span className="markt-arrow up">↑</span>
+              <span className="markt-arrow down">↓</span>
             </div>
             <p className="markt-text">
-              Öl und Benzin zeigen bullisches Muster. Brent wurde nach dem Abbruch von Irans Friedensgesprächen und der israelischen Libanon-Offensive Anfang Juni deutlich fester. Die konkreten Drohungen bezüglich Bab el-Mandeb (Huthi-Blockade) und das norwegische Streikrisiko ab dem 5. Juni stützen weitere Aufschläge. Russlands Ölförderung sinkt strukturell, was Angebotsspannung erhöht. US-Benzinpreise sind auf 4-Jahres-Highs, was politischen Druck aufbaut — das könnte längerfristig beruhigend wirken. Kurzfristig jedoch bleibt die Lage angespannt, solange die Geopolitik im Nahen Osten nicht deutlich entspannt.
-            </p>
+              Rohöl unter Druck — Brent korrigiert deutlich von ~95 USD auf 79 USD, charttechnisch ist die 200-Tage-Linie durchbrochen (Bärensignal). Das Iran-Abkommen bricht die Hormus-Risikoprämie weg, und OPEC+ erhöht das Förderziel weiter. Goldman Sachs senkt die Q4-Prognose auf 80 USD, Morgan Stanley rechnet Q3 mit 90 und Q4 mit 80 USD. Die Rückkehr iranischen Öls auf den Markt (parallel zur LNG-Wiederöffnung, erste Schiffe durchqueren Hormus mit Transponder an) beschwichtigt die Angebotsseite. Zwar bleiben Restkonflikte um Libanon und die Atomfrage — Trump droht mit Militärschlägen — aber der unmittelbare Preisdruck ist nach dem Deal-Durchbruch deutlich gewichen.\n            </p>
           </div>
         </div>
       </div>
