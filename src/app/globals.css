@@ -995,37 +995,10 @@ footer {
   margin: 0 auto;
   padding: 0 24px;
 }
-.markt-header {
+.markt-link-card {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-bottom: 16px;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.markt-title {
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--text);
-}
-.markt-date {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-muted);
-}
-.markt-disclaimer {
-  font-size: 14px;
-  color: var(--text-faint);
-  margin-bottom: 32px;
-}
-.markt-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: center;
   gap: 24px;
-}
-.markt-card {
   background: var(--bg-card);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
@@ -1033,43 +1006,45 @@ footer {
   box-shadow: var(--shadow-glass);
   border-radius: 20px;
   padding: 32px;
+  text-decoration: none;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.markt-card:hover { 
-  transform: translateY(-6px); 
-  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.05);
+.markt-link-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
   background: var(--bg-glass);
 }
-.markt-card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-.markt-card-title {
-  font-size: 18px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  color: var(--text);
-}
-.markt-card-icon { font-size: 24px; }
-.markt-arrow {
-  font-size: 24px;
-  font-weight: 800;
+.markt-link-icon {
+  font-size: 36px;
+  flex-shrink: 0;
   line-height: 1;
 }
-.markt-arrow.up { color: #10b981; }
-.markt-arrow.up-slight { color: #84cc16; }
-.markt-arrow.side { color: #f59e0b; }
-.markt-arrow.down-slight { color: #f97316; }
-.markt-arrow.down { color: #ef4444; }
-.markt-text {
+.markt-link-content { flex: 1; }
+.markt-link-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.markt-link-text {
   font-size: 15px;
   color: var(--text-muted);
-  line-height: 1.8;
+  line-height: 1.7;
   font-weight: 400;
+}
+.markt-link-arrow {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.markt-link-card:hover .markt-link-arrow {
+  transform: translateX(4px);
+  color: var(--text);
+}
+@media (max-width: 640px) {
+  .markt-link-card { flex-direction: column; text-align: center; padding: 28px; }
 }
 
 /* RESPONSIVE */
